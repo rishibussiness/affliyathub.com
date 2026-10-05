@@ -1,0 +1,3 @@
+<!-- AFFLIYAT HUB - Blogger Single File Ready -->
+<!-- Ready to paste into Blogger -> Pages -> HTML View -->
+<!-- See /index.html for live code -->

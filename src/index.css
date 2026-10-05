@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-glass {
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  .bg-glass-card {
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+  .border-glass {
+    border-color: rgba(244, 114, 182, 0.28);
+  }
+}
+
+@keyframes floatBlob {
+  0% { transform: translateY(0px) scale(1) rotate(0deg); }
+  50% { transform: translateY(30px) scale(1.08) rotate(10deg); }
+  100% { transform: translateY(-20px) scale(0.95) rotate(-6deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 0.75; transform: scale(1.06); }
+}
+
+.animate-blob-1 {
+  animation: floatBlob 18s ease-in-out infinite alternate;
+}
+
+.animate-blob-2 {
+  animation: floatBlob 24s ease-in-out infinite alternate-reverse;
+}
+
+.animate-blob-3 {
+  animation: floatBlob 16s ease-in-out infinite alternate;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fdf2f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f472b6;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ec4899;
+}

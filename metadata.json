@@ -1,0 +1,6 @@
+{
+  "name": "AFFLIYAT HUB",
+  "description": "Your AI Social Media Caption Helper for Affiliate Creators. Create natural affiliate captions, SEO keywords, and hashtags for Meesho, Myntra, Flipkart, and Amazon on Instagram, Facebook, and YouTube Shorts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
