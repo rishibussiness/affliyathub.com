@@ -23,6 +23,19 @@ app.get('/api/health', (_req, res) => {
   });
 });
 
+// Domain site verification endpoints
+app.get(
+  [
+    '/34ce56ae7e3638d89846.txt',
+    '/34ce56ae7e3638d89846b9d85347788963717cab.txt',
+    '/34ce56ae7e3638d89846',
+    '/34ce56ae7e3638d89846b9d85347788963717cab',
+  ],
+  (_req, res) => {
+    res.type('text/plain').send('34ce56ae7e3638d89846b9d85347788963717cab');
+  }
+);
+
 // Helper for fallback generation
 function generateCreatorFallback(
   affiliatePartner: string,

@@ -1,12 +1,12 @@
 {
-  "projectId": "festive-venture-02l12",
-  "appId": "1:880252943796:web:61e292f551889fe64186e1",
-  "apiKey": "AIzaSyByIhQiP67UnKnUauGKxusc4MM2m_s_kaE",
-  "authDomain": "festive-venture-02l12.firebaseapp.com",
+  "projectId": "affliyat-hub",
+  "appId": "1:736541299661:web:90068926db8d0b2e9aea84",
+  "apiKey": "AIzaSyBSN4Z2O37MF2HSc-6XSv2w0sDKE-bgG9w",
+  "authDomain": "affliyat-hub.firebaseapp.com",
   "firestoreDatabaseId": "ai-studio-affliyathub-8054d95c-bd71-4a4b-807d-8aa9a4256a2e",
-  "storageBucket": "festive-venture-02l12.firebasestorage.app",
-  "messagingSenderId": "880252943796",
-  "measurementId": "",
+  "storageBucket": "affliyat-hub.firebasestorage.app",
+  "messagingSenderId": "736541299661",
+  "measurementId": "G-EBFK884NJS",
   "oAuthClientId": "880252943796-vhq350i9kqdp1hkmlssoqq9crqmboka3.apps.googleusercontent.com",
   "recaptchaSiteKey": ""
 }

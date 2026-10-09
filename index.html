@@ -38,6 +38,7 @@
     </script>
     <title>Affliyat Hub – AI Affiliate Caption & Content Generator</title>
     <meta name="description" content="Create natural affiliate captions, titles, SEO keywords and hashtags for Instagram, Facebook and YouTube Shorts. Built for affiliate creators." />
+    <meta name="34ce56ae7e3638d89846b9d85347788963717cab" content="34ce56ae7e3638d89846b9d85347788963717cab" />
     
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -66,7 +67,50 @@
     </script>
   </head>
   <body class="bg-pink-50/40 text-slate-800 antialiased font-sans selection:bg-pink-500 selection:text-white min-h-screen">
+    <!-- Video Ad Script -->
+    <script>
+    (function(ttxr){
+    var d = document,
+        s = d.createElement('script'),
+        l = d.currentScript || d.scripts[d.scripts.length - 1];
+    s.settings = ttxr || {};
+    s.src = "\/\/unfoldedtrade.com\/bbX.VUsmdtGjly0TYLWLcV\/We_mA9VuNZ\/UblikRPeTwcwzrNwTfYW2kN\/zwc\/tBN\/zrMR1eNnj\/Yn4nMXQJ";
+    s.async = true;
+    s.referrerPolicy = 'no-referrer-when-downgrade';
+    l.parentNode.insertBefore(s, l);
+    })({})
+    </script>
+
     <div id="root"></div>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBSN4Z2O37MF2HSc-6XSv2w0sDKE-bgG9w",
+        authDomain: "affliyat-hub.firebaseapp.com",
+        projectId: "affliyat-hub",
+        storageBucket: "affliyat-hub.firebasestorage.app",
+        messagingSenderId: "736541299661",
+        appId: "1:736541299661:web:90068926db8d0b2e9aea84",
+        measurementId: "G-EBFK884NJS"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      try {
+        const analytics = getAnalytics(app);
+      } catch (e) {
+        // Analytics may be ignored in environments without cookies
+      }
+    </script>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
